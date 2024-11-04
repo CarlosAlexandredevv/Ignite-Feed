@@ -1,18 +1,19 @@
 import { PencilLine } from 'phosphor-react';
-import styles from './Sidebar.module.css';
 import { Avatar } from './Avatar';
+
+import styles from './Sidebar.module.css';
 
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
       <img
         className={styles.cover}
-        src="https://img.freepik.com/fotos-gratis/papel-de-parede-padrao-de-fundo-abstrato-grunge-preto-com-foto-gratis_1340-33834.jpg"
-        alt=""
+        src="https://images.unsplash.com/photo-1663601398716-3d40cef5d1fc?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D"
       />
 
       <div className={styles.profile}>
-        <Avatar src="https://avatars.githubusercontent.com/u/143346006?v=4" />
+        <Avatar src="https://github.com/carlosalexandredevv.png" />
+
         <strong>Carlos Alexandre</strong>
         <span>Web Developer</span>
       </div>

@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
+
 import { ThumbsUp, Trash } from 'phosphor-react';
+import { Avatar } from './Avatar';
 
 interface CommentProps {
   content: string;
@@ -28,6 +29,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
         src="https://github.com/carlosalexandredevv.png"
         alt=""
       />
+
       <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
@@ -45,6 +47,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
 
           <p>{content}</p>
         </div>
+
         <footer>
           <button onClick={handleLikeComment}>
             <ThumbsUp />
