@@ -7,7 +7,7 @@ export function Sidebar() {
     <aside className={styles.sidebar}>
       <img
         className={styles.cover}
-        src="https://classic.exame.com/wp-content/uploads/2024/05/GokuDay.jpg?quality=70&strip=info&w=1200"
+        src="https://img.freepik.com/fotos-gratis/papel-de-parede-padrao-de-fundo-abstrato-grunge-preto-com-foto-gratis_1340-33834.jpg"
         alt=""
       />
 
